@@ -1,0 +1,181 @@
+
+  .requests-page {
+  padding: 50px;
+}
+
+.requests-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem; /* Control the space between the header and button */
+}
+
+.requests-header h1 {
+  margin: 0; /* Remove any default margin for h1 */
+}
+
+.new-request-button {
+  background-color: #830c08;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center; /* Center the icon and text */
+}
+
+.new-request-button .fa-plus {
+  margin-right: 0.5rem; /* Add space between the icon and text */
+}
+
+
+
+
+/* Align status circles to the right */
+.status-circles-container {
+  display: flex;
+  justify-content: flex-end;  /* Align circles to the right */
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+/* Common styles for all circles */
+.circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  font-size: 18px;
+  color: rgb(7, 6, 6);
+  padding: 15px;
+}
+
+.circle .count {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.circle .label {
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Status Circle Colors */
+.new-requests {
+  background-color: #f1d0e6; /* Green */
+}
+
+.delayed-requests {
+  background-color: #b1eeb9; /* Yellow */
+}
+
+.escalated-requests {
+  background-color: #ade8f1; /* Blue */
+}
+
+.on-hold-requests {
+  background-color: #eb92ef; /* Gray */
+}
+
+.search-filters {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+  
+  
+}
+
+.search-filters input, .search-filters select {
+  padding: 10px;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+.requests-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+
+.requests-table th{
+  border: 1px solid #f1b025;
+  padding: 10px;
+  text-align: left;
+  color: #fff;
+  background-color: #f1b025;
+  
+}
+
+.requests-table td {
+  border: 1px solid #d5f1c7;
+  padding: 10px;
+  text-align: left;
+  color: #0f0e0e;
+}
+
+
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.badge.new {
+  background-color: #5bc0de;
+  color: white;
+}
+
+.badge.high {
+  background-color: #d9534f;
+  color: white;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.pagination button {
+  background-color: #f5f5f5;
+  border: none;
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+/* Requests.css */
+
+.cancel-button {
+  border: 2px solid #f44336; /* Red border */
+  color: #f44336; /* Red text color */
+  background-color: transparent; /* Transparent background */
+  transition: background-color 0.3s, color 0.3s; /* Transition for hover effect */
+  
+}
+
+.cancel-button:hover {
+  background-color: #f44336; /* Red background on hover */
+  color: white; /* White text on hover */
+}
+
+.submit-button {
+  border: 2px solid #4caf50; /* Green border */
+  color: #4caf50; /* Green text color */
+  background-color: transparent; /* Transparent background */
+  transition: background-color 0.3s, color 0.3s; /* Transition for hover effect */
+}
+
+.submit-button:hover {
+  background-color: #4caf50; /* Green background on hover */
+  color: white; /* White text on hover */
+}

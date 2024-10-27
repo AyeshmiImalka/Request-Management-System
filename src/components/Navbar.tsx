@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="navbar">
-      <div className="navbar__logo">e-hospital</div>
+      <div className="navbar__logo">E-hospital</div>
       
       <ul className="navbar__links">
         <li>
